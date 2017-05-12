@@ -33,5 +33,9 @@
     "url": "git://github.com/anonymous node/sails user/MajorTunes.git"
   },
   "author": "anonymous node/sails user",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "mocha": "^3.3.0",
+    "supertest": "^3.0.0"
+  }
 }
