@@ -1,11 +1,11 @@
 'use strict';
 
-var request = require("supertest")
-    app = require("../app").getApp;
+var sails = require('sails');
+var request = require("supertest");
 
 describe('GET /', function(){
   it('expects HTTP response code 200', function(done){
-    request(app)
+    request(sails.hooks.http.app)
     .get('/')
     .expect(200, done);
   });
