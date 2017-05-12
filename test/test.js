@@ -1,6 +1,4 @@
-'use strict';
 
-var sails = require('sails');
 var request = require("supertest");
 
 describe('GET /', function(){
